@@ -2,7 +2,7 @@
 
 import discord
 import me_def
-
+from settings import token
 import os
 
 
@@ -42,7 +42,7 @@ async def on_message(message):
 
 
 
-client.run('MTAwNjQ5OTAyOTA2NjE5OTA0MA.Gxr3cF.ws2ngC1qQZOfTT0FHhsHKczjPKpyXFJe7chm0w')
+client.run(token)
 
 
 
